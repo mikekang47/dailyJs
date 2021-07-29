@@ -19,7 +19,7 @@ function onLoginSubmit(event) {
   
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
-  if(savedUsername === null) {
+if(savedUsername === null) {
     loginForm.classList.remove(HIDDEN_CLASSNAME); 
     loginForm.addEventListener("submit", onLoginSubmit);
 } else {
