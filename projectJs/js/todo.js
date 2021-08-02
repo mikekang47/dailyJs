@@ -6,7 +6,10 @@ const toDoInput = document.querySelector("#todo-form input");
 function paintToDo(newTodo) {
     const li = document.createElement("li");
     const span = document.createElement("span");
+    const button = document.createElement("button");
+    button.innerText = "❌";
     li.appendChild(span);
+    li.appendChild(button);
     span.innerText = newTodo;
     toDoList.appendChild(li);
 } 
