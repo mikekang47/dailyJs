@@ -1,5 +1,5 @@
 
-const clock = document.querySelector("h2#clock");
+const clock = document.querySelector("div#clock");
 
 const defaultDate = new Date();
 

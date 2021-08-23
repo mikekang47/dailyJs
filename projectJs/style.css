@@ -1,3 +1,37 @@
 .hidden {
     display: none;
 }
+
+.tik {
+    text-align: center;
+    font-size:50px;
+    font-style: oblique;
+}
+
+.name{
+    text-align: center;
+    font-size:50px;
+    margin-bottom: 20px;
+    background-image: url("./img/0.jpeg");
+}
+
+
+.todo{
+    font-size:40px;;
+    font-style:unset;
+    text-align: center;
+}
+
+
+.fill-in {
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    background-color: inherit;
+    border-bottom: 5px solid #8181fa;
+    border-radius: 5px;
+    color: white;
+  }
